@@ -1,0 +1,135 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format("ttf");
+}
+    @font-face {
+        font-family: youngserif;
+        src: url(/assets/fonts/young-serif/youngSerif-Regular.ttf) format("ttf");
+   
+}
+
+
+body{
+    font-family: youngserif;
+}
+
+.img{
+    max-width: ;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  :root{
+    --nutmeg:hsl(14, 45%,36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+     --White: hsl(0, 0%, 100%);
+     --Rose-White: hsl(330, 100%, 98%);
+     --Eggshell: hsl(30, 54%, 90%);
+     --Light-Grey: hsl(30, 18%, 87%);
+     --Wenge-Brown: hsl(30, 10%, 34%);
+     --Dark-Charcoal: hsl(24, 5%, 18%);
+  }
+  body{
+    background-color: var(--Eggshell);
+    color: var(--Wenge-Brown);
+    min-height: 100vh;
+    font-family: 'outfit , sans-serif';
+    line-height: 1.4;
+    display: flex;
+    place-content: center;
+
+  }
+  img{
+    max-width: 100%;
+    display: block;
+  }
+  h1,h2{
+    font-family: 'young-serif, serif';
+    font-weight: 400%;
+  }
+  h1{
+    color: var(--Dark-Charcoal);
+    font-size: 3.8rem;
+  }
+  h2{
+    color: var(--nutmeg);
+  }
+  .container{
+    max-width: 800px;
+    background-color: var(--White);
+    margin: 2rem;
+    border-radius: 1rem;
+  }
+  .container .image-section{
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  .Recipe-des{
+    margin: 1.5rem;
+  }
+  .Recipe-des2{
+    background-color: var(--Rose-White);
+    padding: 1.25rem;
+    border-radius: 1rem;
+  }
+  .Recipe-des2 h3{
+    color: var(--Dark-Raspberry);
+    margin-bottom: .75rem;
+  }
+  .Recipe-des2 ul li::marker{
+    color: var(--Dark-Raspberry);
+  }
+  .Recipe-des3 li{
+    margin-bottom: .5rem;
+
+  }
+  .Recipe-des3 li span{
+    font-weight: initial;
+  }
+  .Recipe-des3{
+    padding-left: 1rem;
+  }
+  .Recipe-des4 {
+    padding-left: .5rem;
+    margin-bottom: .5rem;
+
+  }
+  .Recipe-des4 ol{
+     
+     margin-right: 1rem;
+     
+  }
+  .Recipe-des4 h2{
+    padding-left: 1rem;
+  }
+  .nutrition-step .values{
+    margin-bottom: 1rem;
+  }
+  .nutrition-table .item{
+    padding: .75rem 2rem;
+    display: flex;
+    transition: all 200ms ease;
+    border-bottom: 1px solid var(--Light-Grey);
+  }
+
+  .nutrition-table .item:last-child{
+    border-bottom: 0;
+  }
+
+   .nutrition-table .item p:nth-child(2){
+    color: var(--nutmeg);
+    font-weight: 700;
+   }
+
+   .nutrition-table .item > *{
+    width: 300px;
+    margin-right: auto;
+   }
+   .nutrition-step{
+    padding-left: 1rem;
+   }
